@@ -1,13 +1,23 @@
-<h1 class="text-center">Meet the team</h1>
-
-
-<div class="text-center">
+<div class="container text-center padded">
+  <h1>Our team</h1>
   <ul class="list-inline">
-  <% %w(romain anne seb).each do |member| %>
     <li>
-    <img src="images/<%= member%>.jpg" width="100" class="img-circle" alt="">
-    <h3><%= member.capitalize %></h3>
+      <h2>Romain</h2>
+      <img src="images/romain.jpeg" class="img-circle" width="150">
     </li>
-  <% end %>
+    <li>
+      <h2>Seb</h2>
+      <img src="images/seb.jpg" class="img-circle" width="150">
+    </li>
+    <li>
+      <h2>Anne</h2>
+      <img src="images/anne.jpg" class="img-circle" width="150">
+    </li>
   </ul>
+
+  <h3 class="padded">
+    <a href="mailto:contact@airbnb.com">
+      <i class="fa fa-envelope"></i> contact@airbnb.com
+    </a>
+  </h3>
 </div>

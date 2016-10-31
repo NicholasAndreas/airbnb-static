@@ -1,20 +1,19 @@
-- name: Romain
-  flat_picture: card-london.jpeg
-  city: London
-  title: Romain's home
-  description: Nice flat in picadilly
-  owner_picture: romain.jpg
 
-- name: Sebastien
-  flat_picture: card-paris.jpg
-  city: Paris
-  title: Sebastien's home
-  description: Nice flat in paris
+seb:
+  name: Sebastien's home
+  description: Charming room in Montmartre
   owner_picture: seb.jpg
-
-- name: Anne
-  flat_picture: card-brussels.jpeg
-  city: Bruseels
-  title: Anne's home
-  description: Nice flat in Brussels
+  city: "Paris, France"
+  picture: background-paris.jpg
+anne:
+  name: Anne's home
+  description: Lovely house
   owner_picture: anne.jpg
+  city: "Brussels, Belgium"
+  picture: background-brussels.jpeg
+romain:
+  name: Romain's home
+  description: Nice flat in Piccadilly
+  owner_picture: romain.jpeg
+  city: "London, UK"
+  picture: background-london.jpg
